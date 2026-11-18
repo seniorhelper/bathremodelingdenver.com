@@ -63,11 +63,28 @@ details{background:#fff;border:1px solid var(--line);border-radius:10px;padding:
 summary{font-weight:700;cursor:pointer}
 .small{font-size:.9rem;color:var(--muted)}
 footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:.92rem;color:var(--muted)}
+.ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.ctas a{display:inline-block;text-decoration:none;font-weight:700;border-radius:10px;padding:12px 18px;min-height:48px;line-height:24px}
+.cta-call{background:#fde68a;color:#3b1406!important}
+.cta-quote{background:#fff;color:#7c2d12!important;border:2px solid #fde68a}
+.ctas.dark .cta-quote{border-color:#7c2d12}
+.ctas.dark .cta-call{background:#7c2d12;color:#fff!important}
+.crumb{font-size:.92rem;margin:0 0 8px}.crumb a{color:#fde68a}
+.answer{background:#fff;border:1px solid var(--line);border-left:6px solid var(--brick);border-radius:0 12px 12px 0;padding:14px 16px}
+.tblwrap{overflow-x:auto;margin:14px 0}
+table{border-collapse:collapse;width:100%;background:#fff;font-size:.98rem}
+caption{text-align:left;font-weight:700;padding:0 0 8px}
+th,td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+th{background:#fdf0e1}
+.diagram{margin:16px 0;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}
+.diagram figcaption{font-size:.9rem;color:var(--muted);margin-top:6px}
+.checks{padding-left:1.2em}.checks li{margin:6px 0}
+@media(max-width:560px){th,td{padding:7px 6px;font-size:.92rem}}
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
 {"@type":"WebSite","url":"https://bathremodelingdenver.com/","name":"Bath Remodeling Denver","publisher":{"@id":"https://bathremodelingdenver.com/#org"}},
-{"@type":"LocalBusiness","@id":"https://bathremodelingdenver.com/#org","name":"Eye To Ad Media","url":"https://eyetoad.com/","telephone":"+1-720-249-6588","address":{"@type":"PostalAddress","streetAddress":"1001 Bannock St #660","addressLocality":"Denver","addressRegion":"CO","postalCode":"80204","addressCountry":"US"}},
+{"@type":"LocalBusiness","@id":"https://bathremodelingdenver.com/#org","name":"Eye To Ad Media","url":"https://eyetoad.com/","telephone":"+1-720-249-6588","sameAs":["https://eyetoad.com/","https://www.linkedin.com/company/eye-to-ad-media"],"address":{"@type":"PostalAddress","streetAddress":"1001 Bannock St #660","addressLocality":"Denver","addressRegion":"CO","postalCode":"80204","addressCountry":"US"}},
 {"@type":"Service","name":"Denver bathroom remodel quote matching","serviceType":"Bathroom remodel referral","provider":{"@id":"https://bathremodelingdenver.com/#org"},"areaServed":{"@type":"City","name":"Denver"}},
 {"@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"Do I need a permit to remodel a bathroom in Denver?","acceptedAnswer":{"@type":"Answer","text":"Cosmetic work such as paint or swapping a vanity in place usually does not. Moving plumbing, adding circuits, changing walls, or adding a vent fan usually does. Denver Community Planning and Development makes the call, so check its residential interior remodel page before work starts."}},
@@ -83,9 +100,10 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:.92rem;col
 <div class="hd"><div class="wrap"><a href="/">Bath Remodeling Denver</a><a class="ph" href="tel:+17202496588">720-249-6588</a></div></div>
 <main id="main">
 <div class="mast"><div class="wrap">
-  <h1>Remodeling a bathroom in Denver? Start with the local stuff.</h1>
-  <p>Generic remodel advice skips what makes a Denver bathroom job go long or over budget: city permits, plumbing in century-old bungalows, the federal lead rule for pre-1978 homes, and a water rebate most people forget to claim.</p>
-  <div class="jump"><a href="#homes">Your home's era</a><a href="#permits">Permits</a><a href="#lead">Pre-1978 homes</a><a href="#rebate">Rebate</a><a href="#match">Get matched</a></div>
+  <h1>Bath remodeling in Denver: start with the local stuff</h1>
+  <p>Permits, old-home plumbing, lead rules and rebates, before you hire anyone.</p>
+  <div class="ctas"><a class="cta-call" href="tel:+17202496588">Call 720-249-6588</a><a class="cta-quote" href="#match">Get matched with a remodeler</a></div>
+  <div class="jump"><a href="#homes">Your home's era</a><a href="#permits">Permits</a><a href="#lead">Pre-1978 homes</a><a href="#rebate">Rebate</a><a href="#match">Get matched</a><a href="/denver-bathroom-remodel-permits/">Permit guide</a></div>
 </div></div>
 
 <section id="homes"><div class="wrap">
@@ -109,7 +127,7 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:.92rem;col
     <div class="r"><div>Moving or removing a wall, enlarging the room</div><div class="yes">Building permit</div></div>
   </div>
   <div class="callout" style="margin-top:16px"><b>Who pulls it:</b> if you hire someone, they should pull the permit under their own Denver license. Doing the work yourself in the home you live in? Denver has a <a href="https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections/Single-Family-and-Duplex-Projects/Homeowner-Permits" rel="nofollow noopener">homeowner permit process</a>, and Colorado's <a href="https://dpo.colorado.gov/Plumbing_Permit_Inspection_Info" rel="nofollow noopener">State Plumbing Board</a> allows homeowner plumbing with a permit.</div>
-  <p class="small">Final word belongs to Denver Community Planning and Development. Read its <a href="https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections/Single-Family-and-Duplex-Projects/Residential-Interior-Remodel" rel="nofollow noopener">residential interior remodel page</a> before you sign. Colorado has no statewide general contractor license, so check licensing with the city.</p>
+  <p class="small">Final word belongs to Denver Community Planning and Development. Read its <a href="https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections/Single-Family-and-Duplex-Projects/Residential-Interior-Remodel" rel="nofollow noopener">residential interior remodel page</a> before you sign. Our <a href="/denver-bathroom-remodel-permits/">Denver bathroom permit guide</a> explains which jobs use a quick permit, which need plan review, and the homeowner permit limits. Colorado has no statewide general contractor license, so check licensing with the city.</p>
 </div></section>
 
 <section id="lead"><div class="wrap">

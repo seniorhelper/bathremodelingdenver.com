@@ -1,0 +1,14 @@
+# Bath Remodeling Denver
+
+> Local guide to remodeling a bathroom in Denver, Colorado (permits, older-home plumbing, the EPA lead-safe rule for pre-1978 homes, Denver Water rebates), published by Eye To Ad Media, a Denver marketing company. Not a contractor: visitors who ask are called back and matched with Aging Safely Baths (showers, tub replacements, safer bathrooms) or one other Denver remodeler they approve.
+
+## Pages
+- [Bath Remodeling Denver: Permits, Old-Home Surprises, Rebates](https://bathremodelingdenver.com/): what hides behind walls by home era (pre-war bungalows, post-war ranches, 1990s+), Denver permit quick read, EPA RRP rule for pre-1978 homes, Denver Water toilet rebate (up to $100 for a WaterSense toilet at 0.8 gpf or less), matching form, FAQ
+- [Denver Bathroom Remodel Permits: Quick Permit or Plan Review?](https://bathremodelingdenver.com/denver-bathroom-remodel-permits/): Denver CPD quick permits (showers, tubs, sinks, toilets, water heaters, GFCI outlets, lighting, exhaust fans; electrical only for single-phase service of 400 A or less), structural work needs plan review, homeowner permits (single-family, owner-occupant, exam for plumbing/electrical/HVAC, 1-year occupancy), EPA RRP 6 sq ft per room threshold, permit checklist for quotes, FAQ
+
+## Contact
+- Phone 720-249-6588 (Eye To Ad Media), 1001 Bannock St #660, Denver, CO 80204
+- Privacy: https://bathremodelingdenver.com/privacy/
+
+## Related
+- Aging Safely Baths (installer for showers, walk-in tubs, tub-to-shower conversions): https://www.agingsafelybaths.com/ ; machine-readable facts: https://www.agingsafelybaths.com/facts.json
